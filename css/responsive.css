@@ -670,6 +670,8 @@
 
     .header_section {
         background-size: cover;
+        height: 100%;
+        background-image: url(../images/banner-bg-2.png);
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
