@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StarCafe - Blog</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid navbr " style="background-color: #fff;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" style="padding-top: 0px;" href="index.html"><img src="images/Untitled design - Copy.png"
+          style="background-color: #fff;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item active px-2">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div id="single-post">
+    <!-- <button id="back-btn"><i class="fa-solid fa-chevron-left pr-2"></i>Back</button> -->
+    <h2 id="post-title" class="mb-3"></h2>
+    <p id="post-date" style="color: #888;"></p>
+    <img id="post-image" />
+    <p id="post-content"></p>
+    <p id="post-content2"></p>
+  </div>
+
+  <div class="comment-box" id="commentsSection">
+    <h3>Comments:</h3>
+    <div class="d-flex mx-4 h-100">
+      <div class="d-flex justify-content-center">
+        <img src="./images/profile-5.webp" class="rounded-circle shadow-1-strong" style="height: 50px; width: 50px;" />
+      </div>
+      <div class="ml-4 w-100 d-flex justify-content-between ">
+        <div>
+          <div style="font-size: 17px; font-weight: 600;">Vraj Sheth</div>
+          <div>This is amazing, such an honor to share those experiences with You, We will see You around and
+            give you a try on our upcoming experience project! Cheers</div>
+        </div>
+        <div class="align-content-center px-2 reply_btn">
+          Reply
+        </div>
+      </div>
+    </div>
+    <div class="d-flex h-100 mt-4" style="margin-left: 20%; margin-right: 24px;">
+      <div class="d-flex justify-content-center">
+        <img src="./images/profile2.jpeg" class="rounded-circle shadow-1-strong" style="height: 50px; width: 50px;" />
+      </div>
+      <div class="ml-4 w-100 d-flex justify-content-between ">
+        <div>
+          <div style="font-size: 17px; font-weight: 600;">Admin</div>
+          <div>Looking forward to seeing you again!</div>
+        </div>
+        <div class="align-content-center reply_btn px-2">
+          Reply
+        </div>
+      </div>
+    </div>
+    <div class="d-flex mx-4 mt-4 h-100">
+      <div class="d-flex justify-content-center">
+        <img src="./images/profile3.jpeg" class="rounded-circle shadow-1-strong" style="height: 50px;width: 50px;" />
+      </div>
+      <div class="ml-4 w-100 d-flex justify-content-between ">
+        <div>
+          <div style="font-size: 17px; font-weight: 600;">Ruhi Sharma</div>
+          <div>Nice</div>
+        </div>
+        <div class="align-content-center reply_btn px-2">
+          Reply
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <form id="commentForm" class="mb-5">
+    <h2 class="d-flex">Leave a Comment</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <label for="name">Name:</label><br>
+        <input type="text" class="comm_txt" id="name" name="name" required><br>
+      </div>
+      <div class="col-lg-6">
+        <label for="email">Email:</label><br>
+        <input type="email" class="comm_txt" id="email" name="email" required><br>
+      </div>
+    </div>
+    <label for="comment">Comment:</label><br>
+    <textarea id="comment" name="comment" required></textarea><br>
+    <button class="sub-btn" type="submit">Submit</button>
+  </form>
+
+  <div class="footer_section layout_padding">
+    <div class="container-fluid ">
+      <a class="footer-logo" style="padding-top: 0px;" href="index.html"><img src="images/footerlogo.png"></a>
+      <div class="row">
+        <div class="col-md-4 pl-4 pl-md-5">
+          <h1 class="address_text">Address</h1>
+          <p class="footer_text">123, Inorbit Mall, Gorwa, Vadodara </p><br>
+          <p class="footer_text">Open Mon-Sat, Time: 9:00 AM - 10:00 PM</p>
+          <div class="location_text">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="padding_left_10">+91 1234567890</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span class="padding_left_10">cafe@gmail.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_social_icon">
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 pl-4 pl-md-5 padd">
+          <div class="pad">
+            <h3 class="link-text"><span>Quick Links</span></h3>
+            <ul class="links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 pl-4 pl-md-5 padd">
+          <h1 class="address_text">Get In Touch</h1>
+          <div class="mail_section_1">
+            <input type="text" class="mail_text" placeholder="Your Name" name="Your Name">
+            <input type="email" class="mail_text" placeholder="Your Email" name="Your Email">
+            <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+            <div class="send_bt pb-4 m-0"><a href="#">SEND</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="copyright_text">2024 All Rights Reserved. Design by
+            <a href="https://www.barodaweb.com/">BarodaWeb</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.0.0.min.js"></script>
+  <script src="js/plugin.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/singleblog.js"></script>
+
+</body>
+
+</html>

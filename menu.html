@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StarCafe - Menu</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap"
+    rel="stylesheet">
+  <style>
+    .category {
+      cursor: pointer;
+      font-size: 18px;
+      color: black;
+    }
+
+    .category.active {
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container navbr" style="background-color: #fff;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" style="padding-top: 0px;" href="index.html"><img src="images/Untitled design - Copy.png"
+          style="background-color: #fff;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active px-2">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item  px-2">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="d-flex justify-content-center align-items-center "
+    style="height: calc(45em - 70px); background-color: black; ">
+    <img src="./images/banner1.jpg" alt="" style="width: 100%;height: 100%;opacity: 0.3 ; object-fit: cover;">
+    <h1 class="position-absolute text-light fade-in-text" style=" font-size: 50px;">Menu</h1>
+  </div>
+
+  <div class="container mt-5 my-0 mx-auto" style="margin-left: 5em;">
+    <div class="row">
+      <div class="col-md-2 d-flex align-items-center" style="font-size: 20px; color: black;">Category:</div>
+      <div class="col-md-4 d-flex align-items-center">
+        <div id="categoryList" style="display: flex;">
+          <p class="category active" value="all">All</p>
+          <p class="category" value="coffee">Coffee</p>
+          <p class="category" value="food">Food</p>
+          <p class="category" value="dessert">Dessert</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="menu" class="coffee_section layout_padding">
+    <div class="coffee_section_2 container">
+      <div class="row g-2">
+        <div class="col-md-4 col-sm-6 pt-3" data-category="coffee">
+          <div class="image">
+            <div class="coffee_img"><img src="images/menu/americano.jpeg"></div>
+            <div class="row ps-4 m-0">
+              <h3 class="types_text col-6">Americano</h3>
+              <p class="col-6  m-0 pe-5 d-flex justify-content-end price">Rs. 199
+              </p>
+            </div>
+            <p class="looking_text">A simple yet bold combination of espresso and hot water.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 pt-3" data-category="food">
+          <div class="image">
+            <div class="coffee_img w-100"><img src="images/menu/food/burger.jpeg"></div>
+            <div class="row ps-4 m-0">
+              <h3 class="types_text col-6">Burger</h3>
+              <p class="col-6  m-0 pe-5 d-flex justify-content-end price">Rs. 159
+              </p>
+            </div>
+            <p class="looking_text">A juicy grilled patty served with fresh vegetables and a soft bun.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 pt-3" data-category="coffee">
+          <div class="image">
+            <div class="coffee_img"><img src="images/menu/cold-coffee.jpeg"></div>
+            <div class="row ps-4 m-0">
+              <h3 class="types_text col-6">Cold Coffee</h3>
+              <p class="col-6  m-0 pe-5 d-flex justify-content-end price">Rs. 169
+              </p>
+            </div>
+            <p class="looking_text">Chilled coffee served over ice, perfect for a refreshing pickmeup.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 pt-3" data-category="dessert">
+          <div class="image">
+            <div class="coffee_img w-100"><img src="images/menu/dessert/cheesecake.webp"></div>
+            <div class="row ps-4 m-0">
+              <h3 class="types_text col-6">Cheesecake</h3>
+              <p class="col-6  m-0 pe-5 d-flex justify-content-end price">Rs. 149
+              </p>
+            </div>
+            <p class="looking_text">A creamy and smooth cheesecake with a buttery crust, simply irresistible.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 pt-3" data-category="coffee">
+          <div class="image">
+            <div class="coffee_img"><img src="../images/menu/cappuccino.jpeg"></div>
+            <div class="row ps-4 m-0">
+              <h3 class="types_text col-6">Cappuccino</h3>
+              <p class="col-6 m-0 d-flex justify-content-end price">Rs. 149
+              </p>
+            </div>
+            <p class="looking_text">A classic blend of espresso, steamed milk, and frothy goodness.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 pt-3" data-category="food">
+          <div class="image">
+            <div class="coffee_img w-100"><img src="images/menu/food/sandwich.jpg"></div>
+            <div class="row ps-4 m-0">
+              <h3 class="types_text col-6">Sandwich</h3>
+              <p class="col-6  m-0 pe-5 d-flex justify-content-end price">Rs. 199
+              </p>
+            </div>
+            <p class="looking_text">Freshly toasted bread with a delicious blend of veggies and sauces.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 pt-3" data-category="coffee">
+          <div class="image">
+            <div class="coffee_img w-100"><img src="images/menu/espresso.jpeg"></div>
+            <div class="row ps-4 m-0">
+              <h3 class="types_text col-6">Espresso</h3>
+              <p class="col-6  m-0 pe-5 d-flex justify-content-end price">Rs. 159
+              </p>
+            </div>
+            <p class="looking_text">Strong and bold, served in a small cup for a quick caffeine boost.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 pt-3" data-category="food">
+          <div class="image">
+            <div class="coffee_img w-100"><img src="images/menu/food/garlicbread.jpg"></div>
+            <div class="row ps-4 m-0">
+              <h3 class="types_text col-6">Garlic Bread</h3>
+              <p class="col-6  m-0 pe-5 d-flex justify-content-end price">Rs. 149
+              </p>
+            </div>
+            <p class="looking_text">Crispy bread with a buttery garlic topping, a perfect snack.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 pt-3" data-category="dessert">
+          <div class="image">
+            <div class="coffee_img w-100"><img src="images/menu/dessert/brownie.jpeg"></div>
+            <div class="row ps-4 m-0">
+              <h3 class="types_text col-6">Brownie</h3>
+              <p class="col-6  m-0 pe-5 d-flex justify-content-end price">Rs. 129
+              </p>
+            </div>
+            <p class="looking_text">A rich and fudgy chocolate delight, perfect with coffee or ice cream.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer_section layout_padding">
+    <div class="container ">
+      <a class="footer-logo" style="padding-top: 0px;" href="index.html"><img src="images/footerlogo.png"></a>
+      <div class="row">
+        <div class="col-md-4 pl-4 pl-md-5">
+          <h1 class="address_text">Address</h1>
+          <p class="footer_text">123, Inorbit Mall, Gorwa, Vadodara </p><br>
+          <p class="footer_text">Open Mon-Sat, Time: 9:00 AM - 10:00 PM</p>
+          <div class="location_text">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span class="padding_left_10">+91 1234567890</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span class="padding_left_10">cafe@gmail.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_social_icon">
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 pl-4 pl-md-5 padd">
+          <div class="pad">
+            <h3 class="link-text"><span>Quick Links</span></h3>
+            <ul class="links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 pl-4 pl-md-5 padd">
+          <h1 class="address_text">Get In Touch</h1>
+          <div class="mail_section_1">
+            <input type="text" class="mail_text" placeholder="Your Name" name="Your Name">
+            <input type="email" class="mail_text" placeholder="Your Email" name="Your Email">
+            <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+            <div class="send_bt pb-4 m-0"><a href="#">SEND</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="copyright_text">2024 All Rights Reserved. Design by <a
+              href="https://www.barodaweb.com/">BarodaWeb</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.0.0.min.js"></script>
+  <script src="js/plugin.js"></script>
+  <!-- sidebar -->
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+  <script>
+    var category = document.querySelectorAll('.category');
+    category.forEach(function (items) {
+      items.addEventListener('click', function () {
+
+        category.forEach(function (item) {
+          item.classList.remove("active");
+        });
+
+        items.classList.add("active");
+
+        var selected = items.getAttribute('value')
+        var menuItems = document.querySelectorAll('#menu .col-md-4');
+
+        menuItems.forEach(function (item) {
+          if (selected === 'all' || item.getAttribute('data-category') === selected) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      })
+    })
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <title>Welcome to StarCafe</title>
+
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+   <div class="header_section">
+      <div class="container-fluid navbr">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" style="padding-top: 0px;" href="index.html"><img
+                  src="images/Untitled design - Copy.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active px-2">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item  px-2">
+                     <a class="nav-link" href="menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item  px-2">
+                     <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item  px-2">
+                     <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item  px-2">
+                     <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item  px-2">
+                     <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+
+      <div class="banner_section layout_padding">
+         <div class="container">
+            <div id="banner_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="banner_img"><img src="images/coffee.png"></div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="banner_taital_main">
+                              <h1 class="banner_taital">Delicious Brews</h1>
+                              <h5 class="tasty_text">Experience the Rich Flavor</h5>
+                              <p class="banner_text">Discover our exquisite coffee blends, crafted to perfection
+                                 for your ultimate satisfaction.</p>
+                              <div class="btn_main">
+                                 <div class="about_bt"><a href="about.html">Read More</a></div>
+                                 <div class="callnow_bt active"><a href="contact.html">Contact Us</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="banner_img"><img src="images/banner-img-2.png"></div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="banner_taital_main">
+                              <h1 class="banner_taital">Morning Bliss</h1>
+                              <h5 class="tasty_text">Start Your Day Right</h5>
+                              <p class="banner_text">Our fresh coffee is the perfect companion to kickstart your
+                                 day with energy and joy.</p>
+                              <div class="btn_main">
+                                 <div class="about_bt"><a href="about.html">Read More</a></div>
+                                 <div class="callnow_bt active"><a href="contact.html">Contact Us</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="banner_img"><img src="images/banner-img-3.png"></div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="banner_taital_main">
+                              <h1 class="banner_taital">Twilight Treat</h1>
+                              <h5 class="tasty_text">Relax with Every Sip</h5>
+                              <p class="banner_text">Unwind with our smooth and aromatic coffee, perfect for a
+                                 peaceful evening.</p>
+                              <div class="btn_main">
+                                 <div class="about_bt"><a href="about.html">Read More</a></div>
+                                 <div class="callnow_bt active"><a href="contact.html">Contact Us</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#banner_slider" role="button" data-slide="prev">
+                  <i class="fa fa-arrow-left"></i>
+                  <!-- <i class="fa-solid fa-chevron-left"></i> -->
+               </a>
+               <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
+                  <i class="fa fa-arrow-right"></i>
+                  <!-- <i class="fa-solid fa-chevron-right"></i> -->
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="menu" class="coffee_section layout_padding">
+      <div class="container">
+         <div class="row">
+            <h1 class="coffee_taital">OUR MENU</h1>
+            <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+         </div>
+      </div>
+      <div class="coffee_section_2 container">
+         <div class="swiper w-100 h-100" id="main_slider">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img"><img src="images/menu/cold-coffee.jpeg"></div>
+                     <div class="row ps-4 m-0">
+                        <h3 class="types_text col-6 pl-2 pr-1">Cold Coffee</h3>
+                        <p class="col-6  m-0 d-flex justify-content-end price">Rs. 169</p>
+                     </div>
+                     <p class="looking_text">Chilled coffee served over ice, perfect for a refreshing
+                        pickmeup.</p>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img w-100"><img src="images/menu/food/sandwich.jpg"></div>
+                     <div class="row ps-4 m-0">
+                        <h3 class="types_text col-6">Sandwich</h3>
+                        <p class="col-6  m-0 pe-5 d-flex justify-content-end price">Rs. 199</p>
+                     </div>
+                     <p class="looking_text">Freshly toasted bread with a delicious blend of veggies and sauces.</p>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img"><img src="images/menu/americano.jpeg"></div>
+                     <div class="row ps-4 m-0">
+                        <h3 class="types_text col-6">Americano</h3>
+                        <p class="col-6  m-0 pe-4 d-flex justify-content-end price">Rs. 199</p>
+                     </div>
+                     <p class="looking_text">A simple yet bold combination of espresso and hot water.</p>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img w-100"><img src="images/menu/dessert/cheesecake.webp"></div>
+                     <div class="row ps-4 m-0">
+                        <h3 class="types_text col-6">Cheesecake</h3>
+                        <p class="col-6  m-0 pe-5 d-flex justify-content-end price">Rs. 149</p>
+                     </div>
+                     <p class="looking_text">A creamy and smooth cheesecake with a buttery crust.
+                     </p>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img"><img src="images/menu/pexels-photo-302904.jpg"></div>
+                     <div class="row ps-4 m-0">
+                        <h3 class="types_text col-6">Cappuccino</h3>
+                        <p class="col-6 m-0 pe-4 d-flex justify-content-end price">Rs. 149</p>
+                     </div>
+                     <p class="looking_text">A classic blend of espresso, steamed milk and frothy
+                        goodness.</p>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img w-100"><img src="images/menu/food/garlicbread.jpg"></div>
+                     <div class="row ps-4 m-0">
+                        <h3 class="types_text col-7 pl-2 pr-1">Garlic Bread</h3>
+                        <p class="col-5  m-0  d-flex justify-content-end price">Rs. 149</p>
+                     </div>
+                     <p class="looking_text">Crispy bread with a buttery garlic topping, a perfect snack.</p>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img w-100"><img src="images/menu/dessert/brownie.jpeg"></div>
+                     <div class="row ps-4 m-0">
+                        <h3 class="types_text col-6">Brownie</h3>
+                        <p class="col-6  m-0 pe-4 d-flex justify-content-end price">Rs. 149
+                        </p>
+                     </div>
+                     <p class="looking_text">A rich and fudgy chocolate delight, perfect with coffee or ice cream.</p>
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="swiper-pagination pt-5"></div> -->
+
+            <!-- <div class="swiper-button-prev"></i></div>
+            <div class="swiper-button-next"></div> -->
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev" style="z-index: 1;">
+               <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next" style="z-index: 1;">
+               <i class="fa fa-arrow-right"></i>
+            </a>
+
+         </div>
+
+         <div class="send_bt"><a href="menu.html">More...</a></div>
+      </div>
+   </div>
+
+   <div id="about" class="about_section layout_padding bg-col">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <h1 class="about_taital">About Our shop</h1>
+               <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+            </div>
+            <div class=" row about_section_2 layout_padding">
+               <div class="about_img col-md-6">
+                  <img src="images/about-img.png" class="about_img"
+                     style="width: 100%; object-fit: cover; height:100%;">
+               </div>
+               <div class="about_taital_box col-md-6">
+                  <h1 class="about_taital_1">At Our Cafe,</h1>
+                  <p class=" about_text"> we’re dedicated to creating a warm and welcoming space in the
+                     heart of Vadodara. Our passion for exceptional coffee and homemade treats drives everything
+                     we do. We source only the finest beans to craft the perfect cup, paired with a menu of fresh
+                     pastries,
+                     sandwiches, and salads made with care. Whether you're here for a quick coffee, a relaxed meal, or a
+                     cozy spot to work, StarCafe is your go-to destination. Join us, and experience the comfort and
+                     community of our café.</p>
+                  <div class="readmore_btn"><a href="about.html">Read More</a></div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </div>
+   <div class="client_section layout_padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <h1 class="about_taital">Our Customers Reviews</h1>
+               <div class="bulit_icon"><img src="images/bulit-icon.png" alt="Bullet Icon"></div>
+            </div>
+         </div>
+         <section>
+            <div class="container py-3">
+
+               <div class="row text-center" style="min-height: 400px;">
+                  <div class="col-md-4 mb-4 mb-md-0">
+                     <div class="card h-100">
+                        <div class="card-body py-4 mt-2">
+                           <div class="d-flex justify-content-center mb-4">
+                              <img src="./images/default-profile-picture.webp" class="rounded-circle shadow-1-strong"
+                                 style="width: 100px; height: 100px; object-fit: cover;" />
+                           </div>
+                           <h5 class="font-weight-bold cust-name">[Name Here]</h5>
+                           <ul class="list-unstyled d-flex justify-content-center">
+                              <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                              <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                              <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                              <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                              <li><i class="fas fa-star-half-alt fa-sm text-warning"></i></li>
+                           </ul>
+                           <p class="mb-2 comment">
+                              [Text will be here]
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 mb-4 mb-md-0">
+                     <div class="card h-100">
+                        <div class="card-body py-4 mt-2">
+                           <div class="d-flex justify-content-center mb-4">
+                              <img src="./images/default-profile-picture.webp" class="rounded-circle shadow-1-strong"
+                                 style="width: 100px; height: 100px; object-fit: cover;" />
+                           </div>
+                           <h5 class="font-weight-bold cust-name">[Name Here]</h5>
+                           <ul class="list-unstyled d-flex justify-content-center">
+                              <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                              <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                              <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                              <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                              <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                           </ul>
+                           <p class="mb-2 comment">
+                              [Text will be here]
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 mb-0">
+                     <div class="card h-100">
+                        <div class="card-body py-4 mt-2">
+                           <div class="d-flex justify-content-center mb-4">
+                              <img src="./images/default-profile-picture.webp" class="rounded-circle shadow-1-strong"
+                                 width="100" height="100" />
+                           </div>
+                           <h5 class="font-weight-bold cust-name">[Name Here]</h5>
+                           <ul class="list-unstyled d-flex justify-content-center">
+                              <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                              <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                              <li><i class="fas fa-star fa-sm text-warning "></i></li>
+                              <li><i class="fas fa-star fa-sm text-warning"></i></li>
+                              <li><i class="far fa-star fa-sm text-warning "></i></li>
+                           </ul>
+                           <p class="mb-2 comment">
+                              [Text will be here]
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+   </div>
+
+   <div id="gallery" class="coffee_section layout_padding bg-col">
+      <div class="container">
+         <div class="row">
+            <h1 class="coffee_taital">OUR Gallery</h1>
+            <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+         </div>
+      </div>
+      <div class="coffee_section_2 container">
+
+         <div class="swiper w-100 h-100 " id="gallery_slider">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img w-100"><img src="images/gallery/gallery3.jpg" class="img-click"></div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img"><img src="images/gallery/gallery4.avif" class="img-click"></div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img"><img src="images/gallery/gallery1.avif" class="img-click"></div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img"><img src="images/gallery/gallery2.jpg" class="img-click"></div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img"><img src="images/gallery/gallery6.jpg" class="img-click"></div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="image">
+                     <div class="coffee_img"><img src="images/gallery/gallery5.jpg" class="img-click"></div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#gallery_slider" role="button" data-slide="prev" style="z-index: 1;">
+               <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#gallery_slider" role="button" data-slide="next" style="z-index: 1;">
+               <i class="fa fa-arrow-right"></i>
+            </a>
+         </div>
+         <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+            <a class="next" onclick="changeImage(1)">&#10095;</a>
+         </div>
+      </div>
+   </div>
+
+   <div class="footer_section layout_padding">
+      <div class="container ">
+         <a class="footer-logo" style="padding-top: 0px;" href="index.html"><img src="images/footerlogo.png"></a>
+         <div class="row">
+            <div class="col-md-4 pl-4 pl-md-5">
+               <h1 class="address_text">Address</h1>
+               <p class="footer_text">123, Inorbit Mall, Gorwa, Vadodara </p><br>
+               <p class="footer_text">Open Mon-Sat, Time: 9:00 AM - 10:00 PM</p>
+               <div class="location_text">
+                  <ul>
+                     <li>
+                        <a href="#">
+                           <i class="fa fa-phone" aria-hidden="true"></i>
+                           <span class="padding_left_10">+91 1234567890</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <i class="fa fa-envelope" aria-hidden="true"></i>
+                           <span class="padding_left_10">cafe@gmail.com</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="footer_social_icon">
+                  <ul>
+                     <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                     <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                     <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-4 pl-4 pl-md-5 padd">
+               <div class="pad">
+                  <h3 class="link-text"><span>Quick Links</span></h3>
+                  <ul class="links">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="menu.html">Menu</a></li>
+                     <li><a href="about.html">About Us</a></li>
+                     <li><a href="gallery.html">Gallery</a></li>
+                     <li><a href="blog.html">Blog</a></li>
+                     <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-md-4 pl-4 pl-md-5 padd">
+               <h1 class="address_text">Get In Touch</h1>
+               <div class="mail_section_1">
+                  <input type="text" class="mail_text" placeholder="Your Name" name="Your Name">
+                  <input type="email" class="mail_text" placeholder="Your Email" name="Your Email">
+                  <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                  <div class="send_bt pb-4 m-0"><a href="#">SEND</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="copyright_section">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <p class="copyright_text">2024 All Rights Reserved. Design by <a
+                     href="https://www.barodaweb.com/">BarodaWeb</a>
+               </p>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="js/plugin.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="js/custom.js"></script>
+   <script src="./js/index.js"></script>
+</body>
+
+</html>
