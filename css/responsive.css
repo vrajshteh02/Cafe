@@ -451,7 +451,7 @@
         color: #ffffff;
     } */
 
-    .header_section {
+    .header_section, .client_section {
         background-size: cover;
         height: auto;
         background-image: url(../images/banner-bg-2.png);
@@ -532,6 +532,7 @@
 
     .about_taital {
         font-size: 30px;
+        color: white;
     }
 
     .about_img {
@@ -668,7 +669,7 @@
         color: #ffffff;
     } */
 
-    .header_section {
+    .header_section, .client_section {
         background-size: cover;
         height: 100%;
         background-image: url(../images/banner-bg-2.png);
@@ -747,6 +748,7 @@
 
     .about_taital {
         font-size: 30px;
+        color: white;
     }
 
     .about_img {
